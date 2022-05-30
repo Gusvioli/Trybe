@@ -25,7 +25,7 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 02: HTML & CSS - Primeiros passos em CSS
     - [x] 03: HTML & CSS - Seletores e posicionamento
     - [x] 04: HTML Semântico
-    - [x] 05: [Projeto - Lessons]('sd-022-b-project-lessons-learned')
+    - [x] 05: Projeto - Lessons]('sd-022-b-project-lessons-learned')
     
 ##### Bloco 04: Introdução à JavaScript e Lógica de Programação
 
@@ -34,7 +34,7 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 02: JavaScript - Array e loop For
     - [x] 03: JavaScript - Lógica de Programação e Algoritmos
     - [x] 04: JavaScript - Objetos e funções
-    - [x] 05: [Projeto - Playground Functions]()
+    - [x] 05: Projeto - Playground Functions
 
 ##### Bloco 05: JavaScript: DOM, Eventos e Web Storage
 
@@ -43,11 +43,11 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 03: JavaScript - Eventos
     - [x] 04: JavaScript - Web Storage
     - [x] 05: Fundamentos - JavaScript - Projetos
-    - [x] 05: [Projeto - Arte com Pixels]()
-    - [x] 06: [(Bônus) Projeto - Lista de tarefas]()
-    - [x] 07: [(Bônus) Projeto - Meme Generator]()
-    - [x] 07: [(Bônus) Projeto - Adivinhe a Cor]()
-    - [x] 07: [(Bônus) Projeto - Carta Misteriosa]()
+    - [x] 05: Projeto - Arte com Pixels
+    - [x] 06: [(Bônus) Projeto - Lista de tarefas
+    - [x] 07: [(Bônus) Projeto - Meme Generator
+    - [x] 07: [(Bônus) Projeto - Adivinhe a Cor
+    - [x] 07: [(Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 
@@ -57,14 +57,14 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 03: CSS Flexbox - Parte 1
     - [x] 04: CSS Flexbox - Parte 2
     - [x] 05: CSS Responsivo - Mobile First
-    - [x] 06: [Projeto - Trybewarts]()
+    - [x] 06: Projeto - Trybewarts
 
 ##### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 
     - [x] 01: JavaScript ES6 - let, const, arrow functions e template literals
     - [x] 02: JavaScript ES6 - Fluxo de exceção e Objetos
     - [x] 03: Primeiros passos em Jest
-    - [x] 04: [Projeto - JavaScript Testes Unitários]()
+    - [x] 04: Projeto - JavaScript Testes Unitários
 
 ##### Bloco 08: Higher Order Functions do JavaScript ES6
 
@@ -73,7 +73,7 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 03: JavaScript ES6 - Higher Order Functions - map e filter
     - [x] 04: JavaScript ES6 - Higher Order Functions - reduce
     - [x] 05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-    - [x] 06: [Projeto - Zoo functions]()
+    - [x] 06: Projeto - Zoo functions
 
 
 ## Desenvolvimento Front-end
