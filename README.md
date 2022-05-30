@@ -25,7 +25,7 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 02: HTML & CSS - Primeiros passos em CSS
     - [x] 03: HTML & CSS - Seletores e posicionamento
     - [x] 04: HTML Semântico 
-    - [x] 05: Projeto - [Lessons Learned]([url](https://github.com/tryber/sd-022-b-project-lessons-learned))
+    - [x] 05: Projeto - [Lessons Learned](https://github.com/tryber/sd-022-b-project-lessons-learned)
   
 ##### Bloco 04: Introdução à JavaScript e Lógica de Programação
 
