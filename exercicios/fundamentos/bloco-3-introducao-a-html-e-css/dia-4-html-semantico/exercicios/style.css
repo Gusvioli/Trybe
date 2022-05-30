@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+h1,h2,h3,ul {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+aside {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+
+aside h1 {
+    display: inline-block;
+    text-align: center;
+    margin-right: 0;
+    padding: 10px;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+
+article h1 {
+    text-align: left;
+}
+
+article aside {
+    display: inline-block;
+    float: right;
+}
+
+img {
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+    padding: 0px;
+}
+
+nav {
+    /* width: 100%; */
+    padding: 30px;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 5px 1px gray;
+    /* position: fixed; */
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(80, 199, 159);
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 1px 1px gray; */
+}
+
+nav ul li:hover {
+    display: inline;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(58, 156, 123);
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 1px 1px gray; */
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(197, 187, 132);
+}
+
+table {
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    background-color: antiquewhite;
+}
+
+table td,th {
+    padding: 10px;
+    background-color: rgb(150, 194, 179);
+}
+
+table .tamanho-celula-1 {
+    width: 100px;
+}
+
+main {
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  /* border: 5px solid red; */
+}
+
+
+section {
+    display: inline-block;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(240, 246, 247);
+    padding: 15px;
+}
+
+section h3 {
+    margin: 20px;
+}
+
+section ul li {
+    margin-left: 80px;
+    display: inline-block;
+}
+
+section img, p {
+    display: inline-block;
+}
+
+footer {
+    padding: 20px;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 5px 1px gray;
+    bottom: 0;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+footer header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+footer header h5{
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer .subtitulo-rodape, .subtitulo-rodape,h4 {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+footer .alinhar-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}

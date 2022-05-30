@@ -1,0 +1,221 @@
+html {
+  box-sizing: border-box;
+}
+
+* , *:before , *:after {
+  box-sizing: inherit;
+}
+
+/* layout Pequeno */
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  header > p{
+    font-size: 26px;
+  }
+
+  nav ul {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+  
+  aside {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin: 10% 0;
+  }
+
+  .aside-one , .aside-two {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 10%;
+  }
+
+  .aside-one  h2{
+      align-self: center;
+      
+  }
+
+  .aside-two  h2{
+      align-self: center;
+    }
+
+  article {
+      display: flex;
+      flex-direction: column;
+      margin: 5%;
+  }
+
+  article h1 {
+      font-size: 22px;
+      text-align: center;
+  }
+
+  footer {
+      display: flex;
+      flex-direction: column;
+      margin: 5%;
+  }
+
+  footer h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+/* layout Médio */
+@media screen and (mIN-width: 601px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      body {
+          font-size: 24px;
+      }
+
+      header > p{
+        font-size: 28px;
+      }
+    
+      nav ul {
+        font-size: 24px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+      }
+      
+      aside {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          margin: 10% 0;
+      }
+    
+      .aside-one , .aside-two {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: flex-start;
+          margin: 10%;
+      }
+    
+      .aside-one  h2{
+          align-self: center;
+          
+      }
+    
+      .aside-two  h2{
+          align-self: center;
+        }
+    
+      article {
+          display: flex;
+          flex-direction: column;
+          margin: 5%;
+      }
+    
+      article h1 {
+          font-size: 24px;
+          text-align: center;
+      }
+    
+      footer {
+          display: flex;
+          flex-direction: column;
+          margin: 5%;
+      }
+    
+      footer h3 {
+        font-size: 24px;
+        text-align: center;
+      }
+}
+
+/* layout Grande */
+
+@media screen and (mIN-width: 1081px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      body {
+          font-size: 24px;
+      }
+
+      header > p{
+        font-size: 28px;
+      }
+    
+      nav ul {
+        font-size: 24px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+      }
+      
+      aside {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          margin: 10% 0;
+      }
+    
+      #centralizar-asides {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      .aside-one {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 10%;
+      }
+    
+      .aside-two {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 10%;
+      }
+    
+      article {
+          display: flex;
+          flex-direction: column;
+          margin: 5%;
+      }
+    
+      article h1 {
+          font-size: 24px;
+          text-align: center;
+      }
+    
+      footer {
+          display: flex;
+          flex-direction: column;
+          margin: 5%;
+      }
+    
+      footer h3 {
+        font-size: 24px;
+        text-align: center;
+      }
+}

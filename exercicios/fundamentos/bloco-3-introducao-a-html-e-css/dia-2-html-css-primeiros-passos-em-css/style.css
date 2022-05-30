@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+    font-style: oblique;
+    line-height: 30px;
+    text-align: left;
+    text-decoration: underline;
+}
+h1 {
+    width: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    width: 3em;
+}
+ul {
+    background-color: aqua;
+}
+#li-amarelo {
+    background-color: yellow;
+}
+#li-vermelho {
+    background-color: red;
+}
+#li-marrom {
+    background-color: brown;
+}
+.cor-fundo-p-ul {
+    background-color: aquamarine;
+}

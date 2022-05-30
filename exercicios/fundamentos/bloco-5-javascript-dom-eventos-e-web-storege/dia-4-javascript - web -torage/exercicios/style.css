@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  margin-top: 10px;   
+}
+
+ul {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;    
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(50, 56, 54);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#menuBtn{
+    background-color: #FFFFFF;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;   
+  margin-bottom: 30px; 
+}
+
+button {
+    padding: 5px;
+}
+
+input {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#exib0 , #exib1 , #exib2 , #exib3 , #exib4 {
+    width: 65px;
+}
+
+.texto {
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+}
+    
+.subtitulo {
+    padding: 5px;
+    margin: 5px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
+.sessao {
+    margin-top: 50px;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}

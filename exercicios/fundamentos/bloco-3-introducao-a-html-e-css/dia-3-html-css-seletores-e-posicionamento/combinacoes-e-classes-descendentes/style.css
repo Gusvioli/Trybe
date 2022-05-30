@@ -1,0 +1,32 @@
+ol > li:nth-child(even) {
+    color: green;
+    background-color: yellow;
+}
+ol > li:nth-child(odd) {
+    text-transform: uppercase;
+    background-color: yellow;
+}
+h1, h2, h3 {
+    color: red;
+}
+h1 > em, h2 > em, h3 > em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: 600;
+}
+.maiores-linguagem-programacao > li:nth-child(-n+3) {
+    color: blue;
+}
+.maiores-linguagem-programacao > li:nth-child(2) {
+    color: pink;
+}
+
+.aliados-pessoa-desenvolvedora > li > a:hover {
+    font-weight: bold;
+    color: orange;
+}

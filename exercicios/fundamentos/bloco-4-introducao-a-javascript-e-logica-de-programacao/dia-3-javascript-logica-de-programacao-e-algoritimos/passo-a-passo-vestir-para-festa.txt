@@ -1,0 +1,34 @@
+Como se vestir para uma festa:
+
+1 - Vá ao guarda-roupas.
+2 - Abra a porta do guarda-roupas.
+3 - Escolha uma roupa.
+4 - Pegue a roupa no cábide.
+5 - Feche a porta do guarda-roupas.
+6 - Coloque a roupa na cama.
+7 - Tire a roupa que está vestindo.
+8 - Pegue a roupa em cima da da cama.
+9 - veste a roupa que pegou em cima da cama.
+10- Vá até o sapateiro.
+11- Abre o sapateiro
+12- Escolha um sapato.
+13- Pegue o sapato.
+14- Feche a porta do sapateiro.
+15- coloque o sapato ao lado da cama.
+16- Tire o sapato que esta calçando.
+17- Coloque o sapato no chão.
+18- Pegue o sapato ao lado da cama.
+19- Calçe o sapato.
+
+Responde as seguintes perguntas:
+
+Eu resolvi o problema?
+    SIM
+Havia outras maneiras de resolver o problema?
+    SIM
+A maneira que eu escolhi foi a mais eficiente possível, ou havia como fazer a mesma coisa com menos passos?
+    NÂO
+Seria possível inverter ou retirar algum passo?
+    SIM
+Se eu fosse um computador, conseguiria entender todas as instruções?
+    SIM

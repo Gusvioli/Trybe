@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("/images/smiling-image.jpg");
+    background-size: cover;
+    background-position: 50% 25%;
+    padding: 940px 30px 40px;
+    justify-content: center;
+}
+
+.navegacao {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: auto;
+    box-shadow: 1px 1px 1px 1px #cfcfcf;
+}
+.img-logo{
+margin-left: 280px;
+}
+.inscreva-se{
+    float: right;
+    position: relative;
+    margin-top: 31px;
+
+}
+.inscreva-se > span{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-right: 3px;
+    padding-left: 3px;
+    justify-content: center;
+    text-align: left;
+}
+.inscreva-se > a{
+    border: 2px solid #11a36a;
+    padding: 12px 25px;
+    margin-right: 295px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 15px;
+    color: #11a36a;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.inscreva-se > a:hover{
+    border: 2px solid #11a36a;
+    padding: 12px 25px;
+    margin-right: 295px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: #11a36a;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.imagem-logo {
+    margin-bottom: 45px;
+    margin-top: 29px;
+    margin-left: 58px;
+    position: relative;
+    float: left;
+}
+.banner {
+}

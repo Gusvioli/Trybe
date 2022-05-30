@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.divs {
+  margin: 15px auto;
+  width: 50%;
+  padding: 15px;
+}
+
+label input {
+  padding: 5px;
+  margin: 5px;
+}
+
+#botoes {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+}
