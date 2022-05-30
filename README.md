@@ -19,14 +19,12 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 03: Internet - Entendendo como ela funciona
 
 ##### Bloco 03: Introdução à HTML e CSS
-
     - [x] 01: Introdução - HTML & CSS
     - [x] 01: HTML & CSS - Estruturas de página
     - [x] 02: HTML & CSS - Primeiros passos em CSS
     - [x] 03: HTML & CSS - Seletores e posicionamento
     - [x] 04: HTML Semântico 
     - [x] 05: Projeto - [Lessons Learned](https://github.com/tryber/sd-022-b-project-lessons-learned)
-  
 ##### Bloco 04: Introdução à JavaScript e Lógica de Programação
 
     - [x] 01: Introdução - JavaScript
