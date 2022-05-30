@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+    // O objetivo desses exercícios é colocar em prática o que você acabou de aprender sobre DOM. 
+    // Por isso, você deve fazer os exercícios utilizando apenas código JavaScript , o qual deve ser inserido entre as tags script
+    // Para uma melhor organização, faça commits a cada tarefa concluída. Vamos aos exercícios:
+
+      // exercicio 1 
+      let selecionarTagBody = document.querySelector('body');
+      let criarElementoH1 = document.createElement('h1');
+      criarElementoH1.innerText = "Exercício 5.2 - JavaScript DOM";
+      selecionarTagBody.appendChild(criarElementoH1);
+
+      // exercicio 2
+      let criarElementoMain = document.createElement('main');
+      criarElementoMain.className = 'main-content';
+      criarElementoMain.style = "padding: 5px";
+      selecionarTagBody.appendChild(criarElementoMain);
+
+      // exercicio 3
+      let selecionarTagMain = document.querySelector('main');
+      let criarElementoSection = document.createElement('section');
+      criarElementoSection.className = "center-content";
+      selecionarTagMain.appendChild(criarElementoSection);  
+
+      // exercicio 4 
+      let criarElementoP = document.createElement('p');
+      criarElementoP.innerText = "DOM sistema que organiza e documenta a página em arvores hierárquicas que pode ser usada pelas linguagem de scripts como por exemplo Javascript para modificar.";
+      criarElementoP.style = "padding: 10px";
+      criarElementoSection.appendChild(criarElementoP);
+
+      // exercicio 5 
+      let criarElementoSectionMainLeft = document.createElement('section');
+      criarElementoSectionMainLeft.className = "left-content";
+      criarElementoMain.appendChild(criarElementoSectionMainLeft);
+      
+      // exercicio 6 
+      let criarElementoSectionMainRight = document.createElement('section');
+      criarElementoSectionMainRight.className = "right-content";
+      criarElementoMain.appendChild(criarElementoSectionMainRight);
+      
+      // exercicio 7
+      let selecionarElementoSectionMainLeft = document.querySelector('.left-content');
+      let criarElementoSectionMainLeftImg = document.createElement('img');
+      criarElementoSectionMainLeftImg.src = 'https://picsum.photos/200';
+      criarElementoSectionMainLeftImg.className = 'small-image';
+      selecionarElementoSectionMainLeft.appendChild(criarElementoSectionMainLeftImg, criarElementoSectionMainLeftImg);
+
+      // exercicio 8 
+      let selecionarElementoSectionMainRight = document.querySelector('.right-content');
+      let criarElementoSectionMainRightUl = document.createElement('ul');
+      let listaLi = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'des'];
+      for (let index of listaLi) {
+        let criarElementoSectionMainRightIl = document.createElement('li');
+        criarElementoSectionMainRightIl.innerText = index;  
+        selecionarElementoSectionMainRight.appendChild(criarElementoSectionMainRightIl);
+      }
+      
+      // exercicio 9 
+      for( let i = 0; i < 3; i+=1 ){
+        let criarElementoMainH3 = document.createElement('h3');
+        criarElementoMain.appendChild(criarElementoMainH3);
+      }
+
+      // Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
+
+      // exercicio 2.1
+      let selecionarH1 = selecionarTagBody.children[1];
+      selecionarH1.classList.add('title');
+
+      // exercicio 2.2
+      for (let index = 3; index <= 5; index+=1) {
+        let selecionarH3 = document.querySelector('.main-content');
+        let selecionarH3_h3 = selecionarH3.children[index];
+        selecionarH3_h3.classList.add('description');
+      }
+
+      // exercicio 2.3
+      let selecionarLeftContent = document.querySelector('.main-content');  
+      let selecionarLeftContent_1 = selecionarLeftContent.children[1]; 
+      selecionarLeftContent.removeChild(selecionarLeftContent_1); 
+      
+      // exercicio 2.4
+      let selecionarClassRC = document.querySelector('.right-content');
+      selecionarClassRC.style = 'margin-right: auto; padding: 10px; margin-top:10px;';
+
+      // exercicio 2.5
+      let selecionarClassCC = document.querySelector('.center-content');
+      selecionarClassCC.style = 'background-color: green;';
+      
+      // exercicio 2.6
+      let removeChildRC_nd = selecionarClassRC.children;
+      for (let i = 9; i >= 8; i-=1) {
+        selecionarClassRC.removeChild(removeChildRC_nd[i]);
+      }
+    </script>
+  </body>
+</html>
+        
+
+

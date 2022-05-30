@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+  background: #fff;
+}
+
+#header {
+  background: #ccc;
+  padding: 20px;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#navigation {
+  width: 100%;
+  background: #333;
+}
+
+#navigation ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation ul li {
+  list-style-type: none;
+  display: flex;
+}
+
+#navigation li a {
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-right: 1px solid #fff;
+}
+
+#navigation li a:hover {
+  background: #383;
+}
+
+#content-container {
+  width: 100%;
+  background: #fff;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  padding: 20px 0;
+  margin: 0 0 0 4%;
+}
+
+#content h2 {
+  margin: 0;
+}
+
+#aside {
+  width: 33%;
+  padding: 20px 0;
+  margin: 0 3% 0 0;
+}
+
+#aside h3 {
+  margin: 5px;
+}
+
+#footer {
+  background: #ccc;
+  text-align: right;
+  padding: 20px;
+  height: 1%;
+}
+
+/* Página para print */
+@media print {
+
+  #header,
+  #footer,
+  #navigation {
+    display: none;
+  }
+
+  #content {
+    width: 94%;
+    height: 90%;
+    margin-top: 10px;
+  }
+
+  p {
+    margin-bottom: 3px;
+  }
+
+  body {
+    font-size: 17px;
+  }
+}
+
+/* Tela pequena 240x320 */
+@media screen and (max-width: 240px) {
+  #aside {
+    display: none;
+  }
+
+  body {
+    padding: 0;
+    margin-top: 70px;
+  }
+
+
+  #header {
+    background: #ccc;
+    padding: 20px 0;
+  }
+
+  img {
+    width: 210px;
+  }
+
+  #navigation {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  #navigation ul {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  #navigation ul li {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid #000;
+    font-size: small;
+  }
+
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #header h1 {
+    font-size: 23px;
+  }
+
+  #navigation li a {
+    border-right: 1px solid #333;
+    padding: 5px 5px;
+  }
+
+  #content {
+    width: 85%;
+    font-size: medium;
+  }
+
+  #content h2 {
+    font-size: medium;
+  }
+
+  #footer {
+    width: 100%;
+    text-align: right;
+    margin-left: 0;
+  }
+}
+
+/* Tela pequena 360x640 */
+@media screen and (min-width: 241px) and (max-width: 600px) {
+  #aside {
+    display: none;
+  }
+
+  body {
+    padding: 0;
+    margin-top: 70px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  img {
+    width: 260px;
+  }
+
+  #navigation {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  #navigation ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+
+  #navigation ul li {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid #000;
+    font-size: small;
+    margin-right: 0;
+  }
+
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 5px;
+  }
+
+  #header h1 {
+    font-size: 23px;
+  }
+
+  #navigation li a {
+    border-right: 1px solid #333;
+    padding: 5px 5px;
+  }
+
+  #content {
+    width: 99%;
+    font-size: medium;
+  }
+
+  #content h2 {
+    font-size: medium;
+  }
+
+  #footer {
+    width: 100%;
+    text-align: right;
+    margin-left: 0;
+  }
+}
