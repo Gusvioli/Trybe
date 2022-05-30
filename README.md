@@ -11,7 +11,7 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x]03: Introdução - Unix & Shell
     - [x]03: Unix & Bash - Parte 1
     - [x]04: Unix & Bash - Parte 2
-    - 
+  
 #####Bloco 02: Git, GitHub e Internet
 
     - [x]01: Git & GitHub - O que é e para que serve
