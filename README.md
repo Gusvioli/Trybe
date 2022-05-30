@@ -76,224 +76,226 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 06: [Projeto - Zoo functions]()
 
 
-##Desenvolvimento Front-end
+## Desenvolvimento Front-end
 
 Neste módulo, você vai aprender as técnicas e ferramentas mais atuais para desenvolver um código de front-end que seja rápido, bonito e testável.
 
 
 ##### Bloco 09: JavaScript e Testes Assíncronos
 
-    - [ ]01: Introdução - Front-end
-    - [ ]01: JavaScript Assíncrono e Callbacks
-    - [ ]02: JavaScript Assíncrono - Fetch API e async/await
-    - [ ]03: Jest - Testes Assíncronos
-    - [ ]04: Projeto - Carrinho de Compras
+    - [ ] 01: Introdução - Front-end
+    - [ ] 01: JavaScript Assíncrono e Callbacks
+    - [ ] 02: JavaScript Assíncrono - Fetch API e async/await
+    - [ ] 03: Jest - Testes Assíncronos
+    - [ ] 04: Projeto - Carrinho de Compras
 
 ##### Bloco 10: Introdução à React
 
-    - [ ]01: Introdução - React
-    - [ ]01: 'Hello, world!' no React!
-    - [ ]02: Componentes React
-    - [ ]03: Projeto - Sistema Solar
+    - [ ] 01: Introdução - React
+    - [ ] 01: 'Hello, world!' no React!
+    - [ ] 02: Componentes React
+    - [ ] 03: Projeto - Sistema Solar
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-    - [ ]01: Componentes com estado e eventos
-    - [ ]02: Formulários no React
-    - [ ]03: Projeto - Tryunfo
+    - [ ] 01: Componentes com estado e eventos
+    - [ ] 02: Formulários no React
+    - [ ] 03: Projeto - Tryunfo
     - 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-    - [ ]01: Ciclo de vida de componentes
-    - [ ]02: React Router
-    - [ ]03: Projeto - TrybeTunes
+    - [ ] 01: Ciclo de vida de componentes
+    - [ ] 02: React Router
+    - [ ] 03: Projeto - TrybeTunes
 
 ##### Bloco 13: Metodologias Ágeis
 
-    - [ ]01: Metodologias Ágeis
-    - [ ]02: Projeto - Frontend Online Store
+    - [ ] 01: Metodologias Ágeis
+    - [ ] 02: Projeto - Frontend Online Store
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
-    - [ ]01: RTL - Primeiros passos
-    - [ ]02: RTL - Mocks e Inputs
-    - [ ]03: RTL - Testando React Router
-    - [ ]04: Projeto - Testes em React
+    - [ ] 01: RTL - Primeiros passos
+    - [ ] 02: RTL - Mocks e Inputs
+    - [ ] 03: RTL - Testando React Router
+    - [ ] 04: Projeto - Testes em React
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
-    - [ ]01: Introdução ao Redux - O estado global da aplicação
-    - [ ]02: Usando o Redux no React
-    - [ ]03: Usando o Redux no React - Prática
-    - [ ]04: Usando o Redux no React - Actions Assíncronas
-    - [ ]05: Testes em React-Redux
-    - [ ]06: Projeto - Trybe Wallet
+    - [ ] 01: Introdução ao Redux - O estado global da aplicação
+    - [ ] 02: Usando o Redux no React
+    - [ ] 03: Usando o Redux no React - Prática
+    - [ ] 04: Usando o Redux no React - Actions Assíncronas
+    - [ ] 05: Testes em React-Redux
+    - [ ] 06: Projeto - Trybe Wallet
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-    - [ ]01: Projeto - Jogo de Trivia
+    - [ ] 01: Projeto - Jogo de Trivia
 
 ##### Bloco 17: Context API e React Hooks
 
-    - [ ]01: Context API do React
-    - [ ]02: React Hooks - useState e useContext
-    - [ ]03: React Hooks - useEffect e Hooks customizados
-    - [ ]04: Projeto - StarWars Datatable com Context API e Hooks
+    - [ ] 01: Context API do React
+    - [ ] 02: React Hooks - useState e useContext
+    - [ ] 03: React Hooks - useEffect e Hooks customizados
+    - [ ] 04: Projeto - StarWars Datatable com Context API e Hooks
 
 ##### Bloco 18: Projeto App de Receitas
 
-    - [ ]01: Projeto - App de Receitas
+    - [ ] 01: Projeto - App de Receitas
 
 
-##Desenvolvimento Back-end
+## Desenvolvimento Back-end
 
 Neste módulo, você vai aprender como desenvolver um código de back-end robusto, limpo, escalável e seguro, dominando o uso de bancos de dados, a construção de APIs com testes automatizados.
 
 ##### Bloco 19: Docker: Utilizando Containers
 
-     - [ ]01: Introdução - Back-end
-     - [ ]01: Utilizando Containers - Docker
-     - [ ]02: Manipulação e Criação de Imagens no Docker
-     - [ ]03: Orquestrando Containers com Docker Compose
-     - [ ]04: Projeto - Docker Todo-List
+     - [ ] 01: Introdução - Back-end
+     - [ ] 01: Utilizando Containers - Docker
+     - [ ] 02: Manipulação e Criação de Imagens no Docker
+     - [ ] 03: Orquestrando Containers com Docker Compose
+     - [ ] 04: Projeto - Docker Todo-List
 
 ##### Bloco 20: Introdução à SQL
 
-     - [ ]01: Introdução - Bancos de dados relacionais
-     - [ ]01: Banco de dados SQL
-     - [ ]02: Encontrando dados em um banco de dados
-     - [ ]03: Filtrando dados de forma específica
-     - [ ]04: Manipulando tabelas
-     - [ ]05: Projeto - All For One
+     - [ ] 01: Introdução - Bancos de dados relacionais
+     - [ ] 01: Banco de dados SQL
+     - [ ] 02: Encontrando dados em um banco de dados
+     - [ ] 03: Filtrando dados de forma específica
+     - [ ] 04: Manipulando tabelas
+     - [ ] 05: Projeto - All For One
 
 ##### Bloco 21: Funções SQL, JOINs e Normalização
 
-     - [ ]01: Funções mais usadas no SQL
-     - [ ]02: Descomplicando JOINs
-     - [ ]03: Transformando ideias em um modelo de banco de dados
-     - [ ]04: Aula ao vivo + Projeto - One For All
+     - [ ] 01: Funções mais usadas no SQL
+     - [ ] 02: Descomplicando JOINs
+     - [ ] 03: Transformando ideias em um modelo de banco de dados
+     - [ ] 04: Aula ao vivo + Projeto - One For All
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-     - [ ]01: Intro - Node.js
-     - [ ]01: Node.js - Um motor JavaScript
-     - [ ]02: Node.js - Fluxo Assíncrono
-     - [ ]03: Mocha, Chai e Sinon - Testes de Back-end com Node.js
-     - [ ]04: Express - HTTP com Node.js
-     - [ ]05: Express - Middlewares
-     - [ ]06: Atividades + Projeto - Talker Manager
+     - [ ] 01: Intro - Node.js
+     - [ ] 01: Node.js - Um motor JavaScript
+     - [ ] 02: Node.js - Fluxo Assíncrono
+     - [ ] 03: Mocha, Chai e Sinon - Testes de Back-end com Node.js
+     - [ ] 04: Express - HTTP com Node.js
+     - [ ] 05: Express - Middlewares
+     - [ ] 06: Atividades + Projeto - Talker Manager
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-     - [ ]01: Introdução - Arquitetura de Software
-     - [ ]01: Arquitetura de Software - Camada de Model
-     - [ ]02: Arquitetura de Software - Camada de Controller e Service
-     - [ ]03: Arquitetura Web - Rest e Restful
-     - [ ]04: Arquitetura de Software - Testando as Camadas
-     - [ ]05: Projeto - Store Manager
+     - [ ] 01: Introdução - Arquitetura de Software
+     - [ ] 01: Arquitetura de Software - Camada de Model
+     - [ ] 02: Arquitetura de Software - Camada de Controller e Service
+     - [ ] 03: Arquitetura Web - Rest e Restful
+     - [ ] 04: Arquitetura de Software - Testando as Camadas
+     - [ ] 05: Projeto - Store Manager
 
 ##### Bloco 24: Node.js: ORM e Autenticação
 
-     - [ ]01: Introdução - Node.js: ORM e Autenticação
-     - [ ]01: ORM - Interface da aplicação com o banco de dados
-     - [ ]02: ORM - Associations
-     - [ ]03: JWT - (JSON Web Token)
-     - [ ]04: Testando APIs com Testes de Integração
-     - [ ]05: Projeto - API de Blogs
+     - [ ] 01: Introdução - Node.js: ORM e Autenticação
+     - [ ] 01: ORM - Interface da aplicação com o banco de dados
+     - [ ] 02: ORM - Associations
+     - [ ] 03: JWT - (JSON Web Token)
+     - [ ] 04: Testando APIs com Testes de Integração
+     - [ ] 05: Projeto - API de Blogs
 
 ##### Bloco 25: Deployment
 
-     - [ ]01: Introdução - Deploy
-     - [ ]01: Infraestrutura - Deploy com Heroku
-     - [ ]02: Deploy Docker & Heroku
-     - [ ]03: Projeto - Stranger Things
+     - [ ] 01: Introdução - Deploy
+     - [ ] 01: Infraestrutura - Deploy com Heroku
+     - [ ] 02: Deploy Docker & Heroku
+     - [ ] 03: Projeto - Stranger Things
 
 ##### Bloco 26: TypeScript
 
-     - [ ]01: Introdução - TypeScript
-     - [ ]01: Introdução ao TypeScript
-     - [ ]02: Tipagem Estática e Generics
-     - [ ]03: Express com TypeScript
-     - [ ]04: Projeto - Trybe Smith
+     - [ ] 01: Introdução - TypeScript
+     - [ ] 01: Introdução ao TypeScript
+     - [ ] 02: Tipagem Estática e Generics
+     - [ ] 03: Express com TypeScript
+     - [ ] 04: Projeto - Trybe Smith
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-     - [ ]01: Introdução à Orientação a Objetos
-     - [ ]02: Herança e Interfaces
-     - [ ]03: Polimorfismo
-     - [ ]04: SOLID - Introdução e Princípios S, O e D
-     - [ ]05: SOLID - Princípios L e I
-     - [ ]06: Projeto - Trybers and Dragons
-     - [ ]Bloco 28: Projeto - TFC - Trybe Futebol Clube
-     - [ ]01: Projeto - TFC - Trybe Futebol Clube
+     - [ ] 01: Introdução à Orientação a Objetos
+     - [ ] 02: Herança e Interfaces
+     - [ ] 03: Polimorfismo
+     - [ ] 04: SOLID - Introdução e Princípios S, O e D
+     - [ ] 05: SOLID - Princípios L e I
+     - [ ] 06: Projeto - Trybers and Dragons
+  
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
+
+     - [ ] 01: Projeto - TFC - Trybe Futebol Clube
 
 ##### Bloco 29: Introdução ao MongoDB
 
-     - [ ]01: Introdução - NoSQL
-     - [ ]01: MongoDB - Introdução
-     - [ ]02: Filter Operators
-     - [ ]03: Operadores de consulta
-     - [ ]04: Updates Simples
-     - [ ]05: Updates Complexos - Arrays
-     - [ ]06: Projeto - Commerce
+     - [ ] 01: Introdução - NoSQL
+     - [ ] 01: MongoDB - Introdução
+     - [ ] 02: Filter Operators
+     - [ ] 03: Operadores de consulta
+     - [ ] 04: Updates Simples
+     - [ ] 05: Updates Complexos - Arrays
+     - [ ] 06: Projeto - Commerce
 
 ##### Bloco 30: MongoDB com Node.js e POO
 
-     - [ ]01: MongoDB e arquitetura MSC
-     - [ ]02: MongoDB e POO
-     - [ ]03: Projeto - Car Shop
+     - [ ] 01: MongoDB e arquitetura MSC
+     - [ ] 02: MongoDB e POO
+     - [ ] 03: Projeto - Car Shop
 
 ##### Bloco 31: Projeto - App de Delivery
 
-     - [ ]01: Projeto - App de Delivery
+     - [ ] 01: Projeto - App de Delivery
 
-Bloco 32: MasterClass - VPS, CI/CD
+##### Bloco 32: MasterClass - VPS, CI/CD
 
-     - [ ]01: Dia 1 - VPS
-     - [ ]02: Dia 2
+     - [ ] 01: Dia 1 - VPS
+     - [ ] 02: Dia 2
 
 
-##Ciência da Computação 
+## Ciência da Computação 
 
 Aqui você aprenderá os principais conceitos da Ciência da Computação que são aplicados no dia a dia do desenvolvimento de software e como transformar a teoria em prática, analisando algoritmos e escolhendo as melhores estruturas de dados para resolver os problemas!
 
 ##### Bloco 33: Introdução à Python
 
-    - [ ]0101: Introdução - Ciência da Computação
-    - [ ]0101: Aprendendo Python
-    - [ ]0102: Entrada e Saída de Dados
-    - [ ]0103: Testes
-    - [ ]0104: Projeto - Job Insights
+    - [ ] 0101: Introdução - Ciência da Computação
+    - [ ] 0101: Aprendendo Python
+    - [ ] 0102: Entrada e Saída de Dados
+    - [ ] 0103: Testes
+    - [ ] 0104: Projeto - Job Insights
 
 ##### Bloco 34: Padrões de Projeto
 
-    - [ ]0101: P.O.O em Python
-    - [ ]0102: Padrões - Iterator, Adapter, Strategy
-    - [ ]0103: Padrões - Decorator, Observer, Factory
-    - [ ]0104: Projeto - Relatórios de Estoque
+    - [ ] 0101: P.O.O em Python
+    - [ ] 0102: Padrões - Iterator, Adapter, Strategy
+    - [ ] 0103: Padrões - Decorator, Observer, Factory
+    - [ ] 0104: Projeto - Relatórios de Estoque
 
 ##### Bloco 35: Redes e Raspagem de Dados
 
-    - [ ]0101: Arquitetura de redes
-    - [ ]0102: Redes de computadores, ferramentas e segurança
-    - [ ]0103: Raspagem de Dados
-    - [ ]0104: Projeto - Tech news
+    - [ ] 0101: Arquitetura de redes
+    - [ ] 0102: Redes de computadores, ferramentas e segurança
+    - [ ] 0103: Raspagem de Dados
+    - [ ] 0104: Projeto - Tech news
 
 ##### Bloco 36: Algoritmos
 
-    - [ ]0101: Complexidade de Algoritmos
-    - [ ]0102: Recursividade e Estratégias para solução de problemas
-    - [ ]0103: Algoritmos de ordenação e busca
-    - [ ]0104: Projeto - Algoritmos
+    - [ ] 0101: Complexidade de Algoritmos
+    - [ ] 0102: Recursividade e Estratégias para solução de problemas
+    - [ ] 0103: Algoritmos de ordenação e busca
+    - [ ] 0104: Projeto - Algoritmos
 
 ##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
-    - [ ]0101: Arquitetura de Computadores
-    - [ ]0102: Arrays
-    - [ ]0103: Hashmap e Dict
-    - [ ]0104: Set
-    - [ ]0105: Projeto - Restaurant Orders
-    - [ ]01Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
-    - [ ]0101: Nó e Listas Encadeadas
-    - [ ]0102: Pilhas e Filas
-    - [ ]0103: Projeto - TING - Trybe Is Not Google
+    - [ ] 0101: Arquitetura de Computadores
+    - [ ] 0102: Arrays
+    - [ ] 0103: Hashmap e Dict
+    - [ ] 0104: Set
+    - [ ] 0105: Projeto - Restaurant Orders
+    - [ ] 01Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
+    - [ ] 0101: Nó e Listas Encadeadas
+    - [ ] 0102: Pilhas e Filas
+    - [ ] 0103: Projeto - TING - Trybe Is Not Google
