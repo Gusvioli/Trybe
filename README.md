@@ -73,7 +73,7 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
     - [x] 03: JavaScript ES6 - Higher Order Functions - map e filter
     - [x] 04: JavaScript ES6 - Higher Order Functions - reduce
     - [x] 05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-    - [x] 06: Projeto - [Zoo functions]([url]https://github.com/tryber/sd-022-b-project-zoo-functions/tree/gustavo-vieira-zoo-functions-project)
+          06: Projeto - [Zoo functions](https://github.com/tryber/sd-022-b-project-zoo-functions/tree/gustavo-vieira-zoo-functions-project)
 
 
 ## Desenvolvimento Front-end
