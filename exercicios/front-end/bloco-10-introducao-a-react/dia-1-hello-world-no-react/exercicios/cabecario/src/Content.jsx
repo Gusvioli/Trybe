@@ -23,8 +23,8 @@ const conteudos = [
     },
 ];
 
-const exibir = conteudos.map((ma) => (
-    <li className="cart__li">
+const exibir = conteudos.map((ma, inx) => (
+    <li key = {inx} className="cart__li">
         <span className="span">O conteúdo é: {ma.conteudo}</span>
         <span className="span">Status: {ma.status}</span>
         <span className="span">Bloco: {ma.bloco}</span>
