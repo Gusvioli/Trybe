@@ -83,15 +83,15 @@ Neste módulo, você vai aprender as técnicas e ferramentas mais atuais para de
 
 ##### Bloco 09: JavaScript e Testes Assíncronos
 
-  - [ ] 01: Introdução - Front-end
-  - [ ] 01: JavaScript Assíncrono e Callbacks
-  - [ ] 02: JavaScript Assíncrono - Fetch API e async/await
-  - [ ] 03: Jest - Testes Assíncronos
-  - [ ] 04: Projeto - Carrinho de Compras
+  - [x] 01: Introdução - Front-end
+  - [x] 01: JavaScript Assíncrono e Callbacks
+  - [x] 02: JavaScript Assíncrono - Fetch API e async/await
+  - [x] 03: Jest - Testes Assíncronos
+  - [x] 04: Projeto - Carrinho de Compras
 
 ##### Bloco 10: Introdução à React
 
-  - [ ] 01: Introdução - React
+  - [x] 01: Introdução - React
   - [ ] 01: 'Hello, world!' no React!
   - [ ] 02: Componentes React
   - [ ] 03: Projeto - Sistema Solar
