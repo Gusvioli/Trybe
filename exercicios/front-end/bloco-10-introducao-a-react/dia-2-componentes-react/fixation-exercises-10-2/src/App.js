@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import UserProfile from './UserProfile';
+import PropTypes from 'prop-types';
 
 class App extends React.Component {
   render() {
@@ -28,6 +29,15 @@ class App extends React.Component {
       </div>
     );
   }
+}
+
+UserProfile.propTypes = {
+    users: PropTypes.objectOf(PropTypes.shape({
+        id: PropTypes.number, 
+        name: PropTypes.string, 
+        email: PropTypes.string,
+        avatar: PropTypes.string,
+    }))
 }
 
 export default App;
