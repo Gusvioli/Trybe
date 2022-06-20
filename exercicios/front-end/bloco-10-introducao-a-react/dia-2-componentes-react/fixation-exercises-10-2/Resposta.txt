@@ -1,2 +1,7 @@
+this.props
 1- Image
-2- Realizado dentro do fixation-exercises-10-2
+2- Realizado dentro do fixation-exercises-10-2 devendo esta registrado no github
+
+Componentes
+1- O componente é pai do Order
+2- Realizado dentro do fixation-exercises-10-2 devendo esta registrado no github
