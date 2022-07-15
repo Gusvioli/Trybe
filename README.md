@@ -92,31 +92,31 @@ Neste módulo, você vai aprender as técnicas e ferramentas mais atuais para de
 ##### Bloco 10: Introdução à React
 
   - [x] 01: Introdução - React
-  - [ ] 01: 'Hello, world!' no React!
-  - [ ] 02: Componentes React
-  - [ ] 03: Projeto - Sistema Solar
+  - [x] 01: 'Hello, world!' no React!
+  - [x] 02: Componentes React
+  - [x] 03: Projeto - Sistema Solar
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-  - [ ] 01: Componentes com estado e eventos
-  - [ ] 02: Formulários no React
-  - [ ] 03: Projeto - Tryunfo
+  - [x] 01: Componentes com estado e eventos
+  - [x] 02: Formulários no React
+  - [x] 03: Projeto - Tryunfo
   
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-  - [ ] 01: Ciclo de vida de componentes
-  - [ ] 02: React Router
-  - [ ] 03: Projeto - TrybeTunes
+  - [x] 01: Ciclo de vida de componentes
+  - [x] 02: React Router
+  - [x] 03: Projeto - TrybeTunes
 
 ##### Bloco 13: Metodologias Ágeis
 
-  - [ ] 01: Metodologias Ágeis
-  - [ ] 02: Projeto - Frontend Online Store
+  - [x] 01: Metodologias Ágeis
+  - [x] 02: Projeto - Frontend Online Store
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
-  - [ ] 01: RTL - Primeiros passos
-  - [ ] 02: RTL - Mocks e Inputs
+  - [x] 01: RTL - Primeiros passos
+  - [x] 02: RTL - Mocks e Inputs
   - [ ] 03: RTL - Testando React Router
   - [ ] 04: Projeto - Testes em React
 
