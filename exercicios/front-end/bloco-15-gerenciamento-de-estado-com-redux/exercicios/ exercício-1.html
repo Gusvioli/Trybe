@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      #container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button {
+        height: 50px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <p>Color: <span id="value">white</span></p>
+      <button id="previous">Previous color</button>
+      <button id="next">Next color</button>
+      <button id="randon">Random color</button>
+    </div>
+    <script>
+      const INITIAL_STATE = {
+        colors: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
+        index: 0,
+      };
+
+      const store = Redux.createStore(reducer);
+        document.getElementById('next').addEventListener('click', () => {
+            store.dispatch({
+                type: 'NEXT',
+            });
+
+            document.getElementById('value').innerHTML = store.getState().colors[store.getState().index];
+        });
+        document.getElementById('previous').addEventListener('click', () => {
+            store.dispatch({
+                type: 'PREVIOUS',
+            });
+            document.getElementById('value').innerHTML = store.getState().colors[store.getState().index];
+        });
+
+        document.getElementById('randon').addEventListener('click', () => {
+            store.dispatch({
+                type: 'RANDON',
+            });
+            document.getElementById('value').innerHTML = store.getState().colors[store.getState().index];
+        });
+       // Crie um reducer, implementando um switch retornando apenas o estado inicial como default. 
+       // Não se esqueça de colocar o reducer como parâmetro para o createStore, feito na etapa anterior.
+        function reducer(state = INITIAL_STATE, action) {
+            switch (action.type) {
+            case 'NEXT':
+                return {
+                ...state,
+                index: state.index === 5 ? 5 : state.index + 1,
+                };
+            case 'PREVIOUS':
+                return {
+                ...state,
+                index: state.index === 0 ? 0 : state.index - 1,
+                };
+            case 'RANDON':
+                return {
+                ...state,
+                index: Math.floor(Math.random() * (5 - 0) + 0),
+                };
+            default:
+                return state;
+            }
+        }
+    </script>
+  </body>
+</html>
